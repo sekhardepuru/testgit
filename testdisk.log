@@ -1,0 +1,53 @@
+
+
+Mon Feb  3 18:23:06 2020
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.15.0-76-generic (#86-Ubuntu SMP Fri Jan 17 17:24:28 UTC 2020) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       156299375 sectors
+/dev/sda: user_max   156299375 sectors
+/dev/sda: native_max 156301488 sectors
+/dev/sda: dco        156301488 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 80 GB / 74 GiB - CHS 9729 255 63, sector size=512 - ST380215AS, S/N:5RA4N3V4, FW:4.AAB
+
+/dev/sda: Host Protected Area (HPA) present.
+Partition table type (auto): Intel
+/dev/sda: Host Protected Area (HPA) present.
+Partition table type (auto): Intel
+Disk /dev/sda - 80 GB / 74 GiB - ST380215AS
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1  9729  47 29  156299375
+Change partition type:
+   P FAT32                    0   0  1  9729  47 29  156299375
+
+FAT: Directory entry is marked as free.
+FAT: cluster=1963458302(0x7507fefe), pos=3212135964
+FAT: Can't read directory cluster.
+Directory /
+
+Interface Advanced
+   P Unknown                  0   0  1  9729  47 29  156299375
+Change partition type:
+   P FAT16                    0   0  1  9729  47 29  156299375
+
+Directory /
+       0 -rwxr-xr-x     0      0         0  1-Jan-1980 00:00 )))ÿ)))ÿ.
+       0 -rwxr-xr-x     0      0         0  1-Jan-1980 00:00 )))ÿ)))ÿ.
+       0 -rwxr-xr-x     0      0         0  1-Jan-1980 00:00 )))ÿ)))ÿ.
+       0 -rwxr-xr-x     0      0         0  1-Jan-1980 00:00 )))ÿ)))ÿ.
+       0 -rwxr-xr-x     0      0         0  1-Jan-1980 00:00 )))ÿ)))ÿ.
+       0 -rwxr-xr-x     0      0         0  1-Jan-1980 00:00 )))ÿ)))ÿ.
+       0 -rwxr-xr-x     0      0         0  1-Jan-1980 00:00 )))ÿ)))ÿ.
+       0 -rwxr-xr-x     0      0         0  1-Jan-1980 00:00 )))ÿ)))ÿ.
+
+TestDisk exited normally.
